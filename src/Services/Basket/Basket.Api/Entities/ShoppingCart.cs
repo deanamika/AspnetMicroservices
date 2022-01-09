@@ -19,7 +19,7 @@ namespace Basket.Api.Entities
         public ShoppingCart(string userName)
         {
             UserName = userName;
-        }
+        }   
 
         public decimal TotalPrice
         {
