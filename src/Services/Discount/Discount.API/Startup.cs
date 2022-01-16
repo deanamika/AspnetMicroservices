@@ -1,3 +1,4 @@
+using Discount.API.Repositories;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Mvc;
@@ -31,6 +32,7 @@ namespace Discount.API
             {
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "Discount.API", Version = "v1" });
             });
+            services.AddScoped<IDiscountRepository, DiscountRepository>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -42,6 +44,7 @@ namespace Discount.API
                 app.UseSwagger();
                 app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "Discount.API v1"));
             }
+            
 
             app.UseRouting();
 
