@@ -20,7 +20,7 @@ services:
     environment:
       - POSTGRESS_USER=admin
       - POSTGRESS_PASSWORD=admin1234
-      - POSTGRESS_DB=DiscountDB
+      - POSTGRESS_DB=DiscountDb
     restart: always
     ports:
       - "5432:5432"
