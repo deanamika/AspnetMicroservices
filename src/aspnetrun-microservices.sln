@@ -23,7 +23,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Discount.Grpc", "Services\D
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Ordering", "Ordering", "{788AA849-F26F-4F19-B5A2-69F55FC0A9ED}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ordring.Domain", "Services\Ordering\Ordring.Domain\Ordring.Domain.csproj", "{B39824C6-D3B9-4EB3-BE11-FC9A58EFA7C1}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ordering.Domain", "Services\Ordering\Ordring.Domain\Ordering.Domain.csproj", "{B39824C6-D3B9-4EB3-BE11-FC9A58EFA7C1}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ordering.API", "Services\Ordering\Ordering.API\Ordering.API.csproj", "{A21DEE25-3AE0-4126-80E0-7128658E5888}"
 EndProject
