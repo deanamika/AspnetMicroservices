@@ -25,6 +25,7 @@ namespace Ordering.Application.Features.Orders.Queries.GetOrdersList
             CancellationToken cancellationToken)
         {
             var orderList = await _orderRepository.GetOrdersByUserName(request.UserName);
+
             return _mapper.Map<List<OrdersVm>>(orderList);
         }
     }
